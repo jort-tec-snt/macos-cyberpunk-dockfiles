@@ -1,0 +1,220 @@
+{
+    autohide = 1;
+    "last-analytics-stamp" =     (
+        "812424058.975219"
+    );
+    lastShowIndicatorTime = "812433841.7384501";
+    loc = "en_US:PE";
+    mineffect = genie;
+    "mod-count" = 100;
+    "persistent-apps" =     (
+                {
+            GUID = 2322262975;
+            "tile-data" =             {
+                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.apps.launcher";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Apps.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Apps;
+                "file-mod-date" = 3869434315;
+                "file-type" = 169;
+                "is-beta" = 0;
+                "parent-mod-date" = 3869434315;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2322262976;
+            "tile-data" =             {
+                book = {length = 1136, bytes = 0x626f6f6b 70040000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Safari";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Safari;
+                "file-mod-date" = 3869423114;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3869423114;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2322262978;
+            "tile-data" =             {
+                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.mail";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Mail.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Mail;
+                "file-mod-date" = 3869434315;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3869434315;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2322262979;
+            "tile-data" =             {
+                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Maps";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Maps.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Maps;
+                "file-mod-date" = 3869434315;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3869434315;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2322262983;
+            "tile-data" =             {
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.iCal";
+                "dock-extra" = 1;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Calendar.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Calendar;
+                "file-mod-date" = 3869434315;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3869434315;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2322262993;
+            "tile-data" =             {
+                book = {length = 600, bytes = 0x626f6f6b 58020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.AppStore";
+                "dock-extra" = 1;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/App%20Store.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "App Store";
+                "file-mod-date" = 3869434315;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3869434315;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2322262991;
+            "tile-data" =             {
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.iWork.Pages";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Pages.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Pages;
+                "file-mod-date" = 13223761605220;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 128513589795281;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2322262995;
+            "tile-data" =             {
+                book = {length = 604, bytes = 0x626f6f6b 5c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.systempreferences";
+                "dock-extra" = 1;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/System%20Settings.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "System Settings";
+                "file-mod-date" = 3869434315;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3869434315;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 672150257;
+            "tile-data" =             {
+                book = {length = 1496, bytes = 0x626f6f6b d8050000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "md.obsidian";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Volumes/Obsidian%201.13.7-universal/Obsidian.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Obsidian;
+                "file-mod-date" = 3869385645;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3869386273;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 698882541;
+            "tile-data" =             {
+                book = {length = 1468, bytes = 0x626f6f6b bc050000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.brave.Browser";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Volumes/Brave%20Browser/Brave%20Browser.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Brave Browser";
+                "file-mod-date" = 3871201895;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 266313318391139;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 4026187705;
+            "tile-data" =             {
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.googlecode.iterm2";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/iTerm.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = iTerm;
+                "file-mod-date" = 128131337705937;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 128513589795281;
+            };
+            "tile-type" = "file-tile";
+        }
+    );
+    "persistent-others" =     (
+    );
+    "recent-apps" =     (
+    );
+    region = PE;
+    "show-recents" = 0;
+    tilesize = 42;
+    "trash-full" = 1;
+    version = 1;
+    "wvous-br-corner" = 14;
+}

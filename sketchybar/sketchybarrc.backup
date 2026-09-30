@@ -1,0 +1,126 @@
+#!/bin/bash
+
+PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
+
+# =========================
+# CYBERPUNK SKETCHYBAR
+# =========================
+
+# Reiniciar configuración previa
+sketchybar --remove '/.*/'
+
+# =========================
+# BARRA PRINCIPAL
+# =========================
+
+sketchybar --bar \
+  height=28 \
+  topmost=on \
+  position=top \
+  color=0x00000000 \
+  border_width=0 \
+  corner_radius=0 \
+  margin=0 \
+  y_offset=0 \
+  blur_radius=0 \
+  shadow=off
+
+# =========================
+# VALORES POR DEFECTO
+# =========================
+
+sketchybar --default \
+  icon.font="JetBrainsMono Nerd Font:Bold:10.0" \
+  label.font="JetBrainsMono Nerd Font:Medium:10.0" \
+  icon.color=0xff7dcfff \
+  label.color=0xffc0caf5 \
+  icon.y_offset=0 \
+  label.y_offset=0 \
+  padding_left=7 \
+  padding_right=7 \
+  background.drawing=off
+
+# =========================
+# IZQUIERDA
+# =========================
+
+sketchybar --add item apple left
+
+sketchybar --set apple \
+  icon="" \
+  label.drawing=off \
+  icon.color=0xff7dcfff \
+  icon.font="JetBrainsMono Nerd Font:Bold:14.0" \
+  padding_left=10 \
+  padding_right=10 \
+  background.drawing=off
+
+# =========================
+# CENTRO
+# =========================
+
+sketchybar --add item front_app center
+
+sketchybar --set front_app \
+  icon.drawing=off \
+  label.font="JetBrainsMono Nerd Font:Medium:10.0" \
+  label.color=0xffaeb6c2 \
+  label.padding_left=10 \
+  label.padding_right=10 \
+  background.drawing=off
+
+sketchybar --subscribe front_app front_app_switched
+
+# =========================
+# DERECHA
+# =========================
+
+# CPU
+sketchybar --add item cpu right
+
+sketchybar --set cpu \
+  script="$PLUGIN_DIR/cpu.sh" \
+  update_freq=3 \
+  icon="CPU" \
+  icon.color=0xff7dcfff \
+  icon.padding_left=10 \
+  icon.padding_right=4 \
+  icon.y_offset=-1 \
+  label.padding_left=2 \
+  label.padding_right=14 \
+  label.y_offset=0 \
+  background.drawing=off
+
+sketchybar --set cpu \
+  icon.color=0xff7dcfff \
+  icon.padding_left=12 \
+  icon.padding_right=4 \
+  label.padding_left=2 \
+  label.padding_right=14
+
+sketchybar --set ram \
+  icon.color=0xffbb9af7 \
+  icon.padding_left=12 \
+  icon.padding_right=4 \
+  label.padding_left=2 \
+  label.padding_right=14
+
+sketchybar --set battery \
+  icon.color=0xff9ece6a \
+  icon.padding_left=12 \
+  icon.padding_right=4 \
+  label.padding_left=2 \
+  label.padding_right=14
+
+sketchybar --set clock \
+  icon.drawing=off \
+  label.font="JetBrainsMono Nerd Font:Medium:10.0" \
+  label.color=0xffb8c0cc \
+  label.padding_left=14 \
+  label.padding_right=12
+
+# =========================
+# ACTUALIZAR
+# =========================
+
+sketchybar --update
